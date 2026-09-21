@@ -143,8 +143,8 @@ Giải mã:
 ## Cách cài đặt
 
 ```bash
-git clone https://github.com/trgchinhh/mophong-mahoaceasar.git
-cd .\mophong-mahoaceasar
+git clone https://github.com/trgchinhh/Ceasar-encryption.git
+cd .\Ceasar-encryption
 dotnet run
 ```
 
