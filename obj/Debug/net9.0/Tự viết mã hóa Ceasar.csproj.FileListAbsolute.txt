@@ -12,3 +12,4 @@ D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\ne
 D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\Tự viết mã hóa Ceasar.pdb
 D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\Tự viết mã hóa Ceasar.genruntimeconfig.cache
 D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\ref\Tự viết mã hóa Ceasar.dll
+D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\Tự viết mã hóa Ceasar.sourcelink.json
