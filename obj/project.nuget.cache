@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "8hIIa3vjTiA=",
+  "dgSpecHash": "OWKVFbUkZQU=",
   "success": true,
   "projectFilePath": "D:\\STU\\Năm 3\\Mã hóa và ứng dụng\\Tự viết mã hóa Ceasar\\Tự viết mã hóa Ceasar.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\spectre.console\\0.57.2\\spectre.console.0.57.2.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\spectre.console.ansi\\0.57.2\\spectre.console.ansi.0.57.2.nupkg.sha512"
+  ],
   "logs": []
 }

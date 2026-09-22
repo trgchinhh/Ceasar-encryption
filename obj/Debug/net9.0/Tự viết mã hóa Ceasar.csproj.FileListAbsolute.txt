@@ -13,3 +13,7 @@ D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\ne
 D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\Tự viết mã hóa Ceasar.genruntimeconfig.cache
 D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\ref\Tự viết mã hóa Ceasar.dll
 D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\Tự viết mã hóa Ceasar.sourcelink.json
+D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\bin\Debug\net9.0\Spectre.Console.dll
+D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\bin\Debug\net9.0\Spectre.Console.Ansi.dll
+D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\Tự viết mã hóa Ceasar.csproj.AssemblyReference.cache
+D:\STU\Năm 3\Mã hóa và ứng dụng\Tự viết mã hóa Ceasar\obj\Debug\net9.0\T_ vi_t .5028B219.Up2Date

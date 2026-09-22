@@ -94,6 +94,8 @@ Chương trình nhỏ mô phỏng thuật toán mã hóa Ceasar (dịch chuyển
 */
 #endregion
 
+using Spectre.Console;
+
 public class Program {
     public static bool nhap_noidung(ref string noidung){
         Console.Write("\t(?) Nhập nội dung: ");
@@ -152,15 +154,18 @@ public class Program {
 │ Github: Github.com/trgchinhh │
 └──────────────────────────────┘
 ";
+        Console.Clear();
+        Console.WriteLine(banner);
 
-        string menu = @"
-[01] Nhập nội dung
-[02] Mã hóa nội dung 
-[03] Giải mã nội dung
-[04] Mã hóa nội dung file
-[05] Giải mã nội dung file  
-[06] Thoát  
-        ";
+        // phần hướng dẫn dùng 
+        AnsiConsole.Write(
+            new Panel(
+                "Dùng phím ↑ ↓ để di chuyển\n" +
+                "Dùng phím Enter để chọn"
+            )
+            .Header("Hướng dẫn")
+        );
+        dungchuongtrinh();
 
         while(true){
             Console.Clear();
@@ -169,12 +174,25 @@ public class Program {
             // tô màu chữ nội dung 
             Console.Write("[-] Nội dung: ");
             if(string.IsNullOrEmpty(noidung)) Mau.tomau("Chưa có", Mau.maudo, true);
-            else Mau.tomau(noidung, Mau.mauxanh, true);
+            else Mau.tomau(noidung, Mau.mauxanhla, true);
 
-            Console.WriteLine(menu);
-            Console.Write("[-] Lựa chọn: ");
-            int luachon;
-            int.TryParse(Console.ReadLine()!, out luachon);
+            Console.WriteLine("\n  MENU");
+            var luachon = AnsiConsole.Prompt(
+                new SelectionPrompt<int>()
+                .AddChoices(1, 2, 3, 4, 5, 6)
+                .WrapAround(true)
+                .HighlightStyle(new Style(Mau.mauxanhla))
+                .UseConverter(x => x switch {
+                    1 => Markup.Escape("[01] Nhập nội dung"),
+                    2 => Markup.Escape("[02] Mã hóa nội dung "),
+                    3 => Markup.Escape("[03] Giải mã nội dung"),
+                    4 => Markup.Escape("[04] Mã hóa nội dung file"),
+                    5 => Markup.Escape("[05] Giải mã nội dung file"),
+                    6 => Markup.Escape("[06] Thoát"),
+                    _ => ""
+                })
+            );
+
             if(luachon == 1){
                 Console.WriteLine("\n[Nhập nội dung]\n");
                 if(nhap_noidung(ref noidung)){
