@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tự viết mã hóa Ceasar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f3f6b783827222516427fd8a798e2937851bf63")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a588b32a7c4cc3447aa0b9f31edec9bf2ec4b781")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tự viết mã hóa Ceasar")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tự viết mã hóa Ceasar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
